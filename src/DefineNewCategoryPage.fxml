@@ -11,7 +11,7 @@
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#89b6e0" height="600.0" layoutX="436.0" stroke="BLACK" strokeType="INSIDE" width="364.0" />
       <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#89b6e0" height="52.0" layoutX="46.0" layoutY="42.0" stroke="BLACK" strokeType="INSIDE" width="346.0" />
-      <Text layoutX="63.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Define New Category">
+      <Text layoutX="63.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text= "New Category">
          <font>
             <Font size="25.0" />
          </font>

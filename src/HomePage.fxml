@@ -14,7 +14,7 @@
         <Pane prefHeight="600.0" prefWidth="227.0" style="-fx-background-color: #89b6e0;">
             <children>
                 <Button layoutX="37.0" layoutY="79.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="154.0" text="Add Item" />
-                <Button layoutX="37.0" layoutY="197.0" mnemonicParsing="false" onAction="#switchToDefineNewCategoryPage" prefHeight="49.0" prefWidth="154.0" text="Define New Category" />
+                <Button layoutX="37.0" layoutY="197.0" mnemonicParsing="false" onAction="#switchToDefineNewCategoryPage" prefHeight="49.0" prefWidth="154.0" text="New Category" />
                 <TextField layoutX="37.0" layoutY="32.0" prefHeight="25.0" prefWidth="154.0" promptText="Search..." />
                 <Button layoutX="37.0" layoutY="276.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="154.0" text="New Storage Location" />
                 <Button layoutX="37.0" layoutY="361.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="154.0" text="Generate Report" />
