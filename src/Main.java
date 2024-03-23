@@ -15,7 +15,7 @@ public class Main extends Application {
         //Group root = new Group();
         Scene scene = new Scene(root);
 
-        stage.setTitle("Application Homepage");
+        stage.setTitle("Asset Tracker");
 
         stage.setScene(scene);
         stage.show();
