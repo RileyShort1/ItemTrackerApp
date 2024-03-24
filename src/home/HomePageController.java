@@ -1,4 +1,4 @@
-package Home;
+package home;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
@@ -14,7 +14,7 @@ public class HomePageController {
     private Parent root;
 
     public void switchToDefineNewCategoryPage(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("../NewCategory/DefineNewCategoryPage.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../newcategory/DefineNewCategoryPage.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
