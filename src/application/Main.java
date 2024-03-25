@@ -18,6 +18,9 @@ public class Main extends Application {
         stage.setTitle("Asset Tracker");
 
         stage.setScene(scene);
+        stage.setWidth(800);
+        stage.setHeight(600);
+        stage.setResizable(false);
         stage.show();
 
     }

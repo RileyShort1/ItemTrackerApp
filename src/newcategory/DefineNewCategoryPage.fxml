@@ -7,7 +7,6 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newcategory.DefineNewCategoryPageController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcf7e4" height="600.0" layoutX="436.0" stroke="#b29379" strokeType="INSIDE" width="364.0" />
       <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#0388a6" height="52.0" layoutX="46.0" layoutY="42.0" stroke="#b29379" strokeType="INSIDE" width="346.0" />
       <Text fill="WHITE" layoutX="119.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Category">
          <font>
@@ -16,5 +15,6 @@
       </Text>
       <TextField layoutX="107.0" layoutY="182.0" prefHeight="43.0" prefWidth="223.0" promptText="Enter Category Name..." />
       <Button layoutX="173.0" layoutY="260.0" mnemonicParsing="false" onAction="#switchToHomePage" prefHeight="36.0" prefWidth="92.0" style="-fx-background-color: #0388a6;" text="Save" textFill="WHITE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcf7e4" height="600.0" layoutX="442.0" stroke="#b29379" strokeType="INSIDE" width="360.0" />
    </children>
 </AnchorPane>
