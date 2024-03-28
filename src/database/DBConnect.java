@@ -25,4 +25,19 @@ public class DBConnect {
             System.out.println(e.toString());
         }
     }
+    public void addStorageLocation(String location, String description) {
+        try {
+            // opens file for writing or creates new file
+            BufferedWriter out = new BufferedWriter(new FileWriter("src/database/data/location.csv",true));
+            // file should be written as "location, description"
+            String line = location + "," + description;
+            out.write(line);
+
+            out.newLine();
+            out.close();
+        }
+        catch (IOException e) {
+            System.out.println(e.toString());
+        }
+    }
 }
