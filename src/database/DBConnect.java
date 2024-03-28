@@ -1,7 +1,8 @@
 package database;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class DBConnect {
     private static DBConnect singleInstance = new DBConnect();
@@ -13,10 +14,15 @@ public class DBConnect {
     }
 
     public void addCategory(String category) {
-
+        try {
+            // opens file for writing or creates new file
+            BufferedWriter out = new BufferedWriter(new FileWriter("src/database/data/category.csv",true));
+            out.write(category);
+            out.newLine();
+            out.close();
+        }
+        catch (IOException e) {
+            System.out.println(e.toString());
+        }
     }
-
-
-
-
 }
