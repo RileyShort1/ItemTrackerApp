@@ -4,6 +4,7 @@ out/
 !**/src/test/**/out/
 JavaFXProject-Java8.iml
 .iml
+.csv
 
 ### Eclipse ###
 .apt_generated
