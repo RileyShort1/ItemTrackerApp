@@ -1,6 +1,6 @@
 package newstoragelocation;
 
-import database.DBConnect;
+import datamanager.DataManager;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -30,7 +30,7 @@ public class NewStorageLocationController {
         String location = newLocationInput.getText();
         String description = locationDescriptionInput.getText();
 
-        DBConnect db = DBConnect.getDBInstance();
+        DataManager db = DataManager.getDBInstance();
         db.addStorageLocation(location, description);
 
         try {

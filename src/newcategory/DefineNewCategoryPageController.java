@@ -1,6 +1,6 @@
 package newcategory;
 
-import database.DBConnect;
+import datamanager.DataManager;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -27,7 +27,7 @@ public class DefineNewCategoryPageController {
 
         String category = newCategoryInput.getText();
 
-        DBConnect db = DBConnect.getDBInstance();
+        DataManager db = DataManager.getDBInstance();
         db.addCategory(category);
 
         try {
